@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "pub": "lerna run tsc && lerna publish --no-private --git-remote sy-utils"
+  },
   "devDependencies": {
     "@types/node": "^20.11.26",
     "lerna": "^8.1.2",
