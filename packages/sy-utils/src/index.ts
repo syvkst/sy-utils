@@ -1,2 +1,2 @@
-export * from "./ObjectKeys/keys";
-export * from "./ObjectKeys/isKey";
+export { keys } from "./ObjectKeys/keys";
+export { isKey } from "./ObjectKeys/isKey";
